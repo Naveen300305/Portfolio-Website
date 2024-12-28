@@ -1,0 +1,81 @@
+body{
+    background-color: black;
+    font-family: sans-serif;
+}
+
+.nav-link{
+    --bs-nav-link-color: white;
+    --bs-nav-link-hover-color: grey;
+    color: var(--bs-nav-link-color);
+}
+
+.lead{
+    color: white;
+}
+
+.text-body-emphasis{
+    color: white !important;
+    font-size: xxx-large
+}   
+
+.progress{
+    width: 400px;
+}
+
+/* keep earlier styles here */
+
+/* styles the form element */
+form {
+    background-color: white;
+    border-radius: 12px;
+    text-align: left;
+    padding: 40px 0px;
+}
+
+/* styles the wrapper enclosing input fields and textarea */
+.form-fields-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 50px;
+}
+
+form .input-box,
+form .message-box {
+    width: 50%;
+}
+
+/* styles the form label */
+form label {
+    display: block;
+    font-size: 20px;
+    margin: 8px 0px;
+}
+
+/* styles the input fields and textarea field */
+form input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 18px;
+}
+
+/* styles the form submit button */
+form button {
+    display: block;
+    width: 160px;
+    margin: 0 auto;
+    font-size: 18px;
+    background-color: #150f41;
+    color: white;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.5s ease;
+}
+
+/* changes the button background color while hovering */
+form button:hover {
+    background-color: #ff4d71;
+}
